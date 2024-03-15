@@ -14,6 +14,7 @@ function Movie( coverImg, title, summary, genres ) {
         </div>
       );
     }
+    
 
     Movie.propTypes = {
         coverImg: PropTypes.string.isRequired,
